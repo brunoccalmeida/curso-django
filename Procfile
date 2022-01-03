@@ -1,1 +1,1 @@
-web: gunicorn meuprimeirodjango.wsgi
+web: gunicorn meuprimeirodjango.wsgi --logfile-file -
